@@ -1,0 +1,10 @@
+.posts{
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+}
+
+.posts .tableposts{
+    margin-top: 10%;
+    width: 80%;
+}
