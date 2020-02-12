@@ -2,15 +2,16 @@ import { h } from 'preact';
 import { useState, useEffect } from 'preact/hooks';
 import Style from '../posts/style.css';
 
+import { urlUsers } from '../../config';
 const Users = () => {
 	const [ users , setUsers] = useState([]);
-	const url = 'https://jsonplaceholder.typicode.com/users';
+	
 	useEffect(() => {
 		get();
 	},[]);
 
 	const get = () => {
-		fetch(url)
+		fetch(urlUsers)
 			.then(res => res.json())
 			.then(data => setUsers(data))
 			.catch(err => console.error(err));

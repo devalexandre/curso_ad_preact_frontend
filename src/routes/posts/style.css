@@ -2,9 +2,21 @@
     display: flex;
     justify-content: center;
     margin-top: 10%;
+    flex-direction: column;
+    margin-left: 10%;
 }
 
 .posts .tableposts{
-    margin-top: 10%;
+    margin-left: 10%;
     width: 80%;
+}
+
+.post .form{
+    width: 40% ;
+    display: flex;
+    align-self: center;
+}
+
+input[type="text"]{
+    width: 40% !important;
 }

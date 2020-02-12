@@ -1,8 +1,18 @@
 {
-    "posts":[
-        {
-          "id": 1,
-          "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit"
-         }
-    ]
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server"
+    },
+    {
+      "id": 2,
+      "title": "Inde Web Up"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "Alexandre E Souza"
+    }
+  ]
 }
