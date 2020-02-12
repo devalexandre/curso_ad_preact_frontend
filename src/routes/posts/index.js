@@ -37,6 +37,7 @@ const Posts = () => {
                     	<tr>
                     		<td>{ post.id} </td>
                     		<td>{post.title} </td>
+
                     	</tr>
 						))
 					}
